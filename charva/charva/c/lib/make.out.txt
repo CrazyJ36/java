@@ -1,0 +1,8 @@
+gcc -fpic -shared -D_USE_NCURSESW_ -I/include -I/include/linux -I../include Toolkit.c -lncursesw -o ../lib/libTerminal.so
+In file included from Toolkit.c:30:0:
+../include/charva_awt_Toolkit.h:2:17: fatal error: jni.h: No such file or directory
+ #include <jni.h>
+                 ^
+compilation terminated.
+make: *** [libTerminal.so] Error 1
+Makefile.linux.txt:24: recipe for target 'libTerminal.so' failed
