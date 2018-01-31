@@ -1,6 +1,6 @@
 public class printStr {
     public static void main(String []args) {
-        String newStr = "hi world";
+        String newStr = "hello world";
         System.out.println(newStr);
     }
 }
