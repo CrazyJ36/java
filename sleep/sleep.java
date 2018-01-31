@@ -5,7 +5,7 @@ public class sleep {
             "Mares eat oats",
             "Does eat oats",
             "Little lambs eat ivy",
-            "A kid will eat ivy too"
+            "A kid might eat ivy"
         };
         for (int i = 0;
              i < importantInfo.length;
