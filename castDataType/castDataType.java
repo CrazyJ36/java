@@ -1,8 +1,8 @@
-public class {
+public class castDataType {
      public static void main(String args[]) {
-         String x = "1";
-         System.out.println(x);
- 	 x = (int);
-	 System.out.println(x);
+         System.out.println("Covert int to string as:\ndouble x = (double) 5;");
+         double x = (double) 5;
+         System.out.print("output: ");
+         System.out.print(x+"\n");
      }
 }
