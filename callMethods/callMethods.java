@@ -8,6 +8,6 @@ public class callMethods {
 		System.out.println("this is printOne Function");
 	}
 	public static void printTwo() {
-	        System.out.print("this is printTwo Function\n");
+	        System.out.println("this is printTwo Function\n");
 	}
 }
