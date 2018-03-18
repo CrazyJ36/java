@@ -16,14 +16,15 @@ public class advclock {
           else if (args[0].equals("number")) {
             System.out.println(monthDay.getDayOfMonth());
         } else if (args[0].equals("clock")) {
-            System.out.println(LocalTime.now);
-
-        } else { help(); }
-
+            System.out.println(LocalTime.now());
+        } else {
+	    help();
+	}
+    }
     public static void help() {
         System.out.println("Usable arguments are:\nclock   \t- ticking clock in seconds");
         System.out.println("timezone\t- show your timezone.\nnumber  \t- show numerical day of the month.");
-        System.out.println("-h, --help\t- for this help text");
+        System.out.println("-h, --help\t- for this help text"); 
     }
 }
 
