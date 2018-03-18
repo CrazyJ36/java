@@ -16,8 +16,7 @@ public class advclock {
           else if (args[0].equals("number")) {
             System.out.println(monthDay.getDayOfMonth());
         } else if (args[0].equals("clock")) {
-        	Clock.tickSeconds(//TODO);
-        } else if // get zoneid url java/time/zoneid
+            System.out.println(LocalTime.now);
 
         } else { help(); }
 
