@@ -1,2 +1,0 @@
-- Use Arguments/Game/Activities requiring to see two
- different text files at different events
