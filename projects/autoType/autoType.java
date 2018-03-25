@@ -1,4 +1,4 @@
-public class selfType {
+public class autoType {
     public static void main(String args[])
         throws InterruptedException {
         char chars[] = {'h','e','l','l','o'};
