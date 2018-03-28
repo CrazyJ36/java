@@ -13,7 +13,6 @@ denied access: subclasses, world
 */
 class AcessLevelModifiers {
     public static void main(String[] args) {
-        System.out.println("ran");
+        System.out.println("public ran");
     }
 }
-
