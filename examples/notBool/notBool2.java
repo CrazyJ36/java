@@ -1,5 +1,5 @@
 public class notBool2 {
-    public static void(String[] args) {
+    public static void main(String[] args) {
         boolean somethingTrue = true;
 /* somethingTrue can be evaluated for trueness (is) as:
 if (somethingTrue == true) {//..}
@@ -14,8 +14,8 @@ if (!somesthingTrue) {//..}
 */
 	if (somethingTrue) {
 	    System.out.println("true is true");
-	} else (!somethingTrue) {
+	} else if (!somethingTrue) {
 	      System.out.println("true is false");
-	}
+	};
    }
 }
