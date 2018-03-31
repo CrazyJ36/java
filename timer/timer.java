@@ -1,6 +1,4 @@
-package com.crazyj36;
-
-public class Main {
+public class timer {
 
     public static void main(String[] args) throws InterruptedException {
         int x = 0;
