@@ -10,7 +10,8 @@ defined as a true variable.
 /* evaluating for falseness (is not somethingTrue):
 if (somethingTrue != true) {//..}
 or
-if (!somesthingTrue) {//..}
+if (!somesthingTrue) {//..} someThing true was defined as only true.
+this is checking to see if someThingTrue is not something true.
 */
 	if (somethingTrue) {
 	    System.out.println("true is true");
