@@ -13,7 +13,8 @@ public class staticVar {
     public static void useA() {
     /* Stating "a" as static makes it available
        to whole class, not just main(). So it
-       can be used in any method.*/
+       can be used in any method. And A static method
+       can be used in any class of the package*/
 
        System.out.println(a);
     }
