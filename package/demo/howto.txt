@@ -1,0 +1,5 @@
+Instructional video:
+https://www.youtube.com/watch?v=MvGI58hFTts
+
+run:
+java p1.c2
