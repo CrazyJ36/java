@@ -1,5 +1,6 @@
 public class printText {
     public static void main(String[] args) {
-        System.out.println("HI WoRlD);
+        System.out.println("HI WoRlD");
+        System.exit(0);
     }
  }
