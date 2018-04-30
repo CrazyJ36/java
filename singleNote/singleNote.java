@@ -1,20 +1,21 @@
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.FileAlreadyExistsException;
 
 public class singleNote {
-
+	
     public static void main(String[] args) throws IOException {
-        File file = new File("file.txt");
-        FileWriter writer = new FileWriter(file);
-        try {
+        File file = new File("note.txt");
+        final FileWriter writer = new FileWriter(file);
+        try { 
             writer.append("Latest: " + args[0].toString() + "\n");
- 	    writer.close();
-	    System.out.println("File updated");
+            
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Empty note. Enter any 'text' to put into note.txt");
         }
-        catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Type any 'text' as parameter.");
-        }
+        writer.close();
+        System.out.println("File updated");
     }
 }
 
