@@ -6,9 +6,6 @@ public class advclock {
         if (args.length < 1) {
             System.out.println("No arguments given, try 'java advclock help'.");
             System.exit(0);
-        } else if (args[0].equals("help")) {
-            help();
-        // Tasks
         } else if (args[0].equals("zone")) {
             System.out.println(ZonedDateTime.now().getZone());
         } else if (args[0].equals("num")) {
@@ -25,7 +22,8 @@ public class advclock {
             String fmonth = month.replace(fl, flu);
             System.out.println(fmonth);
         } else {
-        help();
+            help();
+	    System.exit(0);
         }
     }
     public static void help() {
