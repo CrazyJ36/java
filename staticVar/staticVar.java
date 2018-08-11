@@ -14,7 +14,11 @@ public class staticVar {
     /* Stating "a" as static makes it available
        to whole class, not just main(). So it
        can be used in any method. And A static method
-       can be used in any class of the package*/
+       can be used in any class of the package.
+       Also, A static method or variable means
+       you would not have to create A (new) intance
+       of the whole class containing the main method
+       just use the variable or method in the same file.*/
 
        System.out.println(a);
     }
