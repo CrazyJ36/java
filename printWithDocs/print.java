@@ -5,7 +5,7 @@
  */
 public class print {
 /**
- * Simple into to documenting java.
+ * Simple intro to documenting java.
  * "public" means anyone can access this method.
  * "static" means the method can be run without
  * creating an instance of the class containing
