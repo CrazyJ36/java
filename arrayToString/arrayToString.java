@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class listArray2 {
+public class arrayToString {
 
   public static void main(String[] args) {
     String[] array = new String[]{"hi","tj"};
