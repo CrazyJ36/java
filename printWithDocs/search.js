@@ -78,6 +78,7 @@ function getHighlightedText(item) {
 }
 var watermark = 'Search';
 $(function() {
+    $("#search").val('');
     $("#search").prop("disabled", false);
     $("#reset").prop("disabled", false);
     $("#search").val(watermark).addClass('watermark');
@@ -86,7 +87,7 @@ $(function() {
             $(this).val(watermark).addClass('watermark');
         }
     });
-    $("#search").keydown(function() {
+    $("#search").on('click keydown', function() {
         if ($(this).val() == watermark) {
             $(this).val('').removeClass('watermark');
         }
@@ -229,8 +230,7 @@ $(function() {
                     pkg = (item.m)
                             ? (item.m + "/" + item.l)
                             : item.l;
-                    var s = nestedName(item);
-                    if (exactMatcher.test(s)) {
+                    if (exactMatcher.test(item.l)) {
                         presult.unshift(item);
                         pCount++;
                     } else if (camelCaseMatcher.test(pkg)) {

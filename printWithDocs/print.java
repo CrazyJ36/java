@@ -14,19 +14,15 @@ public class print {
  * This "method"section is where code starts running.
  * It contains an array of "Strings" called "args"
  */
-public static void main(String[] args) {
 /**
  * The "println" method prints a line of text to the screen.
  * The "System" class and its "out" stream are used to access
  * the "println" method.
  */
-  System.out.println("hi tj");
- }
 /**
  * The above curly bracket states
  * ends/closes the "main" method
  */
-}
 /**
  * The last curly brscket closes/ends
  * the whole "class print"
@@ -37,3 +33,8 @@ public static void main(String[] args) {
  * }}
  */
 
+
+public static void main(String[] args) {
+  System.out.println("hi tj");
+ }
+}
