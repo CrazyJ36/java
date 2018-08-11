@@ -1,14 +1,18 @@
-public class incrementDecrement1 {
+public class incrementDecrement {
 
   public static void main(String[] args) {
 
-    // x++
+    /* x++
+       Postfix: The variable's value is first use
+       d in the expression and is then increased. */
     int x = 3;
     System.out.println("x = 3: " + x);
     int y = x++; //y = x(printed as was/is) then x is incremented for later use as y.
     System.out.println("y = x++, y is x, x is incremented, y: " + y + "\nx is now: " + x);
 
-    // ++x
+    /* ++x
+       Prefix: Increments the variable's value and
+       uses the new value in the expression. */
     int a = 1;
     System.out.println("\n\na is: " + a);
     int b = ++a;
