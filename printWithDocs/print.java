@@ -5,6 +5,7 @@
  */
 public class print {
 /**
+ * Simple into to documenting java.
  * "public" means anyone can access this method.
  * "static" means the method can be run without
  * creating an instance of the class containing
@@ -12,15 +13,12 @@ public class print {
  * "void" means the method does not return any value.
  * "main" is the name of this method
  * This "method"section is where code starts running.
- * It contains an array of "Strings" called "args"
- *\n
+ * It contains an array of "Strings" called "args".
  * The "println" method prints a line of text to the screen.
  * The "System" class and its "out" stream are used to access
  * the "println" method.
- * \n
  * The above curly bracket states
- * ends/closes the "main" method
- * \n
+ * ends/closes the "main" method.
  * The last curly brscket closes/ends
  * the whole "class print"
  * {@code public class print {
@@ -30,9 +28,8 @@ public class print {
  * }}
  */
 
-
 public static void main(String[] args) {
-  /** doc after main. only doc will show up for header and class*/
+  /* only doc will show up as header and for class*/
   System.out.println("hi tj");
  }
 }
