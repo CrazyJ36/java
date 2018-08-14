@@ -1,0 +1,2 @@
+run:
+$ java com.crazyj36.package2.aProgram
