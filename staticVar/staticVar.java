@@ -1,5 +1,5 @@
 public class staticVar {
-
+    // Class attribute
     private static String a = "Test";
 
     public static void main(String[] args) {
@@ -18,7 +18,8 @@ public class staticVar {
        Also, A static method or variable means
        you would not have to create A (new) intance
        of the whole class containing the main method
-       just use the variable or method in the same file.*/
+       just to use the variable or method in the same
+       file or package.*/
 
        System.out.println(a);
     }

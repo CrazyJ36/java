@@ -1,0 +1,2 @@
+figure out why variables can be instantiated with public, private, etc.. after main() here.
+simply can only be defined in class{}, java security?
