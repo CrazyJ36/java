@@ -1,9 +1,9 @@
 class getSetInt {
-  static int num;
+  static int num; // default 0
   public static void main(String[] args) {
-    System.out.println(getNum()); // num is 0 (null)
+    System.out.println("Original num, getNum(): " + getNum()); // num is 0 (null)
     setNum();  // setNum() set class.var to 1
-    System.out.println(getNum());  // return num again after setNum()
+    System.out.println("After setNum(), getNum(): " + getNum());  // return num again after setNum()
   }
   public static int getNum() {
     return num;
