@@ -1,4 +1,5 @@
 class accessModifiers {
+
   /* 'public' is an access modifier,
      used to set the level of access. Access Modifiers can be used on
      classes, attributes, and methods.
@@ -16,6 +17,8 @@ class accessModifiers {
      protected - provides the same access as the default access modifier, with the addition that subclasses
      can access protected methods and variables of the superclass.
      private - accessible only within the declared class itself.
+     private is also like encapsulation, or data hiding in OOP, ensuring that
+     implementaion details are not visible to other users.
 
      It's best practice to keep the variables within a class private. They can then be accessed
      and modified using getters and setters.

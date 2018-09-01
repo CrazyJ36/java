@@ -2,7 +2,9 @@ public class gettersSetters {
 
   /* Using getters and setters protects your data(code).
      Particularly when creating classes.
-
+     Achieves encapsulation in Java, declare the class'
+     variables as private and provide public setter and
+     getter methods to modify and view the variables' values.
      For each method in the file, the get() method returns it's value,
      making the methods values usable elsewhere(in other methods of the same class, etc..).
      The set() method sets the values(eg. change a value in this class file from other classes).

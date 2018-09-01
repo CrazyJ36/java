@@ -1,2 +1,4 @@
 figure out why variables can be instantiated with public, private, etc.. after main() here.
+-might not need public variables
+
 simply can only be defined in class{}, java security?
