@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - systemCommands",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.crazyj36.systemCommands.systemCommands",
+            "args": "\"note\"",
+            "projectName": "systemCommand"
+        }
+    ]
+}
