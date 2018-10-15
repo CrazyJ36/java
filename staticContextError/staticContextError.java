@@ -1,6 +1,6 @@
 class staticContextError {
 
-    char myChar = 'c';
+    char myChar = 'c'; // This will break
 
     public static void main(String[] args) {
         getMyChar();
@@ -9,5 +9,6 @@ class staticContextError {
     public static void getMyChar() {
         System.out.println(myChar);
     }
+
 
 }

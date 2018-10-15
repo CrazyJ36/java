@@ -1,4 +1,4 @@
-# Building java with Gradle
+x# Building java with Gradle
 1. make directory structure:
 project/src/main/java/com/crazyj36/appname/appname.java
 other xml/raw resources:

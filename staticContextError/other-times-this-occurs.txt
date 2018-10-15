@@ -1,0 +1,4 @@
+'non-static method cannot be referenced form a static context' can also happen if 
+A class has not been instantiated into your static method. eg.
+
+Frament fragment = new Fragment();
