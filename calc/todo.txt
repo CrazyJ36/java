@@ -1,5 +1,0 @@
-find how to deal with multiple exceptions in different ways.
-this currently allows for only one statement for multiple exceptions,
-i want to do different thing for different exceptions.
-
-or use if statements to catch the possible exceptions.

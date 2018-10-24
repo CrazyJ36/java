@@ -9,7 +9,7 @@ class calc {
     System.out.println("Error, either of: not numbers, or wrong amount of paramters, unknown operator.\nType as:java calc number <+-x/> number");
     System.exit(0);
   }
-
+// you can use multiple catch blocks under one try, then print the reason for error.
 
   int num0 = Integer.parseInt(args[0]);
   String s = args[1];
