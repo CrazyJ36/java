@@ -8,7 +8,7 @@ public class writeFile {
         File file = new File("file.txt");
         // Call new FileWriter with name writer to write the file 'file'
         FileWriter writer = new FileWriter(file);
-        // write the file with some text.
+        // write some text to the file.
         writer.write("Content text\n");
         // close the FileWriter as to not continue using it's resources.
         writer.close();
