@@ -1,12 +1,13 @@
 import javax.swing.JFrame;
-import java.awt.Canvas;
+//import java.awt.Canvas;
 import java.awt.Graphics;
-import java.awt.Event;
-public class jframeTest2 extends Canvas{
-	private String mString = "Hello";
+
+public class line extends Canvas{
+
     public static void main(String[] args) {
-		JFrame jframe = new JFrame("App"); // Window with title
-        Canvas canvas = new jframeTest2(); // Put this class into Canvas Type
+		JFrame jframe = new JFrame("App"); // Window with "App" as title
+		line canvas = new line();
+		// Canvas canvas = new line(); // class into Canvas Type, to put things onto
         canvas.setSize(300, 200);
         jframe.add(canvas);
         jframe.pack(); // Auto pack frame
@@ -23,7 +24,6 @@ public class jframeTest2 extends Canvas{
      * Multiple points are often used [start(x,y); end(x,y)]
      */
     public void paint(Graphics graphics) {
-    	graphics.drawString(mString, 20, 20);
     	graphics.drawLine(20, 30, 60, 30);
     }
 }
