@@ -5,5 +5,7 @@ public class ex2 {
 	System.out.print("type: ");
         Scanner input = new Scanner(System.in);
 	System.out.println("you typed: " + input.nextLine());
+        input.close();
+        System.exit(0)
     }
 }
