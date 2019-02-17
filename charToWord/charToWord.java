@@ -1,24 +1,28 @@
 import java.util.Scanner;
 
 public class charToWord {
-    public static void main(String[] args) {
-        char ch[] = {'a','b','c','d','e','f',
-            'g','h','i','j','k','l','m',
-            'n','o','p','q','r','s','t',
-            'u','v','w','x','y','z'};
+    
+	public static void main(String[] args) {
+        
         System.out.println("Type A character a-z,\n I'll give A word that starts with what you entered.");
         Scanner input = new Scanner(System.in);
-        String in = input.next();
+        char in = input.next().charAt(0);
         input.close();
-        // count letters
-        int count = 0;
-        for (int num = 0; num < ch.length; num++) {
-            count = count + 1;
-        }
-        System.out.println(count);
+		
+		String word = null;
+        switch(in) {
+			case 'a':
+			  word = "Apple"; break;
+			case 'b':
+			  word = "Banana"; break;
+			case 'c':
+			  word = "Car"; break;
+			case 'd':
+              word = "Dinosaur"; break;
+		}
+		
+        System.out.println(" A Word for your given character is: " + word);
         System.exit(0);
-    }
-    public static void fillCharToWord(String in) {
-        
+		
     }
 }
