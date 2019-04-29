@@ -1,1 +1,2 @@
 finish charToWord
+finish todos
