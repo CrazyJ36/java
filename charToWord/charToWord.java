@@ -4,7 +4,7 @@ public class charToWord {
     
 	public static void main(String[] args) {
         
-        System.out.println("Type A character a-z,\nI'll give A word that starts with what you entered.");
+        System.out.println("Type A character a-d,\nI'll give A word that starts with what you entered.");
         Scanner input = new Scanner(System.in);
         char in = input.next().charAt(0);
         input.close();
