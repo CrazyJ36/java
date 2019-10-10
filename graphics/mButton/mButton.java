@@ -3,53 +3,34 @@ import java.awt.event.*;
 import javax.swing.JFrame;
 
 public class mButton {
-    JFrame jFrame = new JFrame("myButton");
-    private Label statusLabel;
-    private Panel controlPanel;
-
-	public mButton(){
-        prepareGUI();
-	}
 
 	public static void main(String[] args){
-		mButton  mButtonVar = new mButton();
-		mButtonVar.showEventDemo();
-
-    }
-
-	private void prepareGUI(){
-		jFrame.setSize(400,400);
-		statusLabel = new Label();
-		statusLabel.setSize(100,80);
-        statusLabel.setText("Click button");
-		controlPanel = new Panel();
-		controlPanel.setLayout(new FlowLayout());
-		jFrame.add(statusLabel);
-		jFrame.add(controlPanel);
-		jFrame.setVisible(true);
-        jFrame.addWindowListener(new WindowAdapter() {
-            public void windowClosing(WindowEvent windowEvent){ // windowClosing() is defined in api to be mapped to close button on window
-                System.out.println("Close button clicked\nExiting..");
+        JFrame frame = new JFrame("Button App");
+		frame.setSize(400,300);
+		Label label = new Label();
+		label.setSize(20,40);
+        label.setText("Click button");
+        Button button = new Button("OK");
+        button.setSize(50, 25);
+		button.setActionCommand("OK");
+		button.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent actionEvent) {
+                if (actionEvent.getActionCommand().equals("OK")) {
+                    label.setText("Ok Clicked.");
+                    System.out.println("Ok clicked in frame.");
+                }
+            }
+        });
+        frame.add(button);
+		frame.add(label);
+		frame.setVisible(true);
+        frame.addWindowListener(new WindowAdapter() {
+            public void windowClosing(WindowEvent windowEvent){ // windowClosing() in api mapped to close button.
+                System.out.println("Close");
                 System.exit(0);
             }
         });
+
 	}
 
-	private void showEventDemo(){
-		Button okButton = new Button("OK");
-		okButton.setSize(50,50);
-		okButton.setActionCommand("OK");
-		okButton.addActionListener(new ButtonClickListener());
-		controlPanel.add(okButton);
-		jFrame.setVisible(true);
-	}
-
-	private class ButtonClickListener implements ActionListener{
-		public void actionPerformed(ActionEvent e) {
-			String command = e.getActionCommand();
-			if( command.equals( "OK" ))  {
-				statusLabel.setText("Ok Clicked.");
-			}
-		}
-	}
 }
