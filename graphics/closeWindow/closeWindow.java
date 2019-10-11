@@ -6,8 +6,11 @@ import java.awt.Window;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowAdapter;
 
-public class closeWindow extends Canvas {
 
+public class closeWindow extends Canvas {
+    // Also to close window, you can also use:
+    // setDefaultCloseOperation(3); 3 meaning EXIT_ON_CLOSE or
+    // System.exit(), javax.swing.WindowConstants int
     public static void main(String[] args) {
         closeWindow closeWindowVar = new closeWindow();
 		JFrame jFrame = new JFrame();
