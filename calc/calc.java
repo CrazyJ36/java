@@ -34,7 +34,7 @@ class calc {
   }
 
   System.out.println("Answer is: " + a);
-
+  
 /*  double div = ((double)n0) / n1;
     System.out.println(div); */
   }
