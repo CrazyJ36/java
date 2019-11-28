@@ -14,6 +14,7 @@ class forLoopEnhanced {
         int[] nums = {1,2,3,4,5};
         for (int nName: nums) {
             System.out.println(nName);
+            System.out.p
         }
     }
 }
