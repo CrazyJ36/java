@@ -1,0 +1,14 @@
+#make a method to call under main() for use in other program as jar:
+kotlinc stuff.kt -d stuff.jar
+kotlinc stuff.kt #generates classes
+
+#make useStuff program calling the stuff() method:
+kotlinc -cp stuff.jar -include-runtime -d useStuff.jar
+
+#it should run here
+kotlinc UseStuffKt
+
+#or for script:
+kotlin -cp stuff.jar -script useStuff.kts
+
+

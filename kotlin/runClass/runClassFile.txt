@@ -1,0 +1,3 @@
+# first, compile testFile to jar
+kotlinc -cp testFile.jar testFile.kt
+kotlin -cp testFile.jar TestFileKt
