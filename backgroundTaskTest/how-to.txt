@@ -1,0 +1,8 @@
+# For multiple source files
+- first compile from same directory as com/,
+  this compiles all source files
+$ javac com/company/app/mainClassName.java
+
+- run mainClassName for package with:
+$ java com/company/app/mainClassName/mainClass
+ 
