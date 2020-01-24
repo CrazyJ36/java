@@ -13,19 +13,25 @@ apply plugin: 'java'
 
 jar {
     manifest {
-        attributes 'Main-Class': 'com.crazyj36.appname.AppNameClass'
+        attributes 'Main-Class': 'com.crazyj36.appname.MainClass'
     }
 }
 
 ----------------------
 
-4. build the java program:
+4. build the java program with gradle:
 > gradle build
 
 
-If successful, A jar will be built at build\libs\appname.jar
+A jar will be built at build\libs\appname.jar
 run with:
-java -jar build\libs\appname.jar
+> java -jar build\libs\appname.jar
+
+Or if you didn't use 'gradle build', cd to
+'project\bin\main' dir after running with vscode,
+and run the package:
+> java com.crazyj36.appname.MainClass
 
 You can then, open the blank, or already written java source
-code in vscode as the classpath and build config would now be set.
+code in vscode as the classpath and build config would now be set
+and autocomplete will work to code the rest of the app.
