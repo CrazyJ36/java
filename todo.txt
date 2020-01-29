@@ -1,3 +1,6 @@
 java:
 practice input/output streams
 make another/work with webContent, done nicely in python
+
+make an interface and implement it's actually very simple core java,
+the simplest part.
