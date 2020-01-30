@@ -1,0 +1,9 @@
+# Usage:
+
+compile:
+  $ javac com/crazyj36/package/MainClass.java
+
+run:
+  $ java com.crazyj36.package.MainClass
+
+# All classes will be compiled
